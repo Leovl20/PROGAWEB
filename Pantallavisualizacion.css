@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+.boton {
+    background-color: purple;
+    color: white;
+    border-radius: 50px;;
+    font-family: Arial, sans-serif; 
+    font-size: 12px; 
+}
+.boton1 {
+    background-color: orange;
+    color: white;
+    border-radius: 50px;;
+    font-family: Arial, sans-serif; 
+    font-size: 12px; 
+}
+.boton2 {
+    background-color: green;
+    color: white;
+    border-radius: 50px;;
+
+}
+.boton3 {
+    background-color: aqua;
+    color: black;
+    border-radius: 50px;;
+
+}
+.imgmenu {
+    width: 100px; 
+    height: auto;
+    display: block; 
+    margin: 0 auto; 
+}
+.imglogo {
+    max-width: 100%;
+    height: auto; 
+}
+.boton4 {
+    background-color: brown;
+    color: white;
+    border-radius: 50px;;
+
+}
+.tabla1 {
+    width: 25%; 
+    height: 100%; 
+    border-collapse: collapse;
+}
+
+.tabla1 td {
+    border: 1px solid black; 
+    padding: 10px; 
+    text-align: center; 
+    vertical-align: middle; 
+}
+
+.container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.tabla2 {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+.tabla2 td {
+    padding: 10px;
+    border: 1px solid black; 
+}
+.row-container {
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
+}
+
+.container {
+    display: flex; 
+    align-items: center; 
+    width: 48%; 
+    border: 1px solid #ccc; 
+    padding: 10px;
+    flex-direction: row-reverse; 
+}
+
+.tabla2 td {
+    border: 1px solid #ccc; 
+    padding: 10px;
+}
+
+.boton5 {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+.imgham {
+    width: 250px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+

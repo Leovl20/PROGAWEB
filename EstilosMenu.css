@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+.boton {
+    background-color: purple;
+    color: black;
+    border-radius: 50px;;
+
+}
+.boton1 {
+    background-color: orange;
+    color: black;
+    border-radius: 50px;;
+
+}
+.boton2 {
+    background-color: green;
+    color: black;
+    border-radius: 50px;;
+
+}
+.boton3 {
+    background-color: aqua;
+    color: black;
+    border-radius: 50px;;
+
+}
+.tablamenu {
+    width: 100%;
+    border-collapse: collapse;
+}
+.tablamenu th, .tablamenu td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+.tablamenu th {
+    background-color: #f4f4f4;
+}
+.imgmenu {
+    width: 100px; 
+    height: auto;
+    display: block; 
+    margin: 0 auto; 
+}
+.tabla1 {
+    width: 25%;
+    border-collapse: collapse; 
+}
+
+.tabla1 {
+    width: 25%; 
+    height: 100%; 
+    border-collapse: collapse;
+}
+
+.tabla1 td {
+    border: 1px solid black; 
+    padding: 10px; 
+    text-align: center; 
+    vertical-align: middle; 
+}
+
+.imglogo {
+    max-width: 100%;
+    height: auto; 
+}
+.boton4 {
+    background-color: greenyellow;
+    color: black;
+    border-radius: 50px;;
+
+}
+

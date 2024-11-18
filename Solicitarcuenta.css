@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+.boton {
+    background-color: purple;
+    color: black;
+    border-radius: 50px;;
+
+}
+.boton1 {
+    background-color: orange;
+    color: black;
+    border-radius: 50px;;
+
+}
+.boton2 {
+    background-color: green;
+    color: black;
+    border-radius: 50px;;
+
+}
+.boton3 {
+    background-color: aqua;
+    color: black;
+    border-radius: 50px;;
+
+}
+.tabla1 {
+    width: 25%;
+    border-collapse: collapse; /* Une los bordes */
+}
+
+.tabla1 {
+    width: 25%; /* Ocupa todo el ancho disponible */
+    height: 100%; /* Ocupa toda la altura de la página */
+    border-collapse: collapse; /* Une los bordes */
+}
+
+.tabla1 td {
+    border: 1px solid black; /* Línea negra para cada celda */
+    padding: 10px; /* Espaciado interno en las celdas */
+    text-align: center; /* Centra el contenido */
+    vertical-align: middle; /* Centra verticalmente el contenido */
+}
+.tabla2 {
+    width: 100%; /* La tabla ocupará todo el ancho disponible */
+    height: 100px; /* Altura fija para la tabla */
+    border-collapse: collapse; /* Une los bordes de las celdas */
+    font-family: Arial, sans-serif; /* Cambia la fuente a Arial */
+    font-size: 40px; /* Ajusta el tamaño del texto */
+    margin-bottom: 20px; /* Añade espacio debajo de la tabla */
+    align-items: center;  
+}
+
+.tabla2 td, .tabla2 th {
+    border: 1px solid black; /* Agrega bordes a las celdas */
+    padding: 10px; /* Espaciado interno en las celdas */
+}
+.tabla3 {
+    border: 3px solid black; /* Bordes exteriores de la tabla */
+    border-collapse: collapse; /* Colapsa los bordes de las celdas */
+    width: 100%; /* Ajusta el ancho de la tabla */
+}
+.tabla3 td {
+    border: none; /* Sin bordes internos en las celdas */
+    padding: 10px; /* Espaciado interno de las celdas */
+    text-align: center; /* Centra el texto horizontalmente */
+    vertical-align: middle; /* Centra el texto verticalmente */
+}
+.imgmenu {
+    width: 250px; 
+    height: auto;
+    display: block; 
+    margin:  0; 
+}
+.boton5 {
+    background-color: brown;
+    color: white;
+    border-radius: 25px;;
+    width: 150px; 
+    height: 50px;
+    font-family: Arial, sans-serif; /* Cambia la fuente a Arial */
+    font-size: 15px; /* Ajusta el tamaño del texto */
+}
+.tabla9 {
+    width: 150px; /* Define un ancho pequeño para la tabla */
+    border-collapse: collapse; /* Une los bordes de las celdas */
+    font-family: Arial, sans-serif; /* Fuente de la tabla */
+    font-size: 14px; /* Tamaño del texto */
+    margin: 0 auto; /* Centra la tabla horizontalmente */
+    background-color: #f9f9f9; /* Color de fondo de la tabla */
+    border: 1px solid black; /* Borde exterior de la tabla */
+}
+
+.tabla9 th, .tabla9 td {
+    border: 1px solid black; /* Bordes internos de las celdas */
+    padding: 5px; /* Espaciado interno de las celdas */
+    text-align: center; /* Centra el contenido horizontalmente */
+    width: 400px;
+}
+
+.tabla9 th {
+    background-color: #e0e0e0; /* Color de fondo para el encabezado */
+    font-weight: bold; /* Hace que el texto del encabezado sea más destacado */
+}
+
+.boton6 {
+    padding: 5px 10px; /* Tamaño más pequeño del botón */
+    font-size: 12px; /* Texto más pequeño */
+    background-color: #4CAF50; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde alrededor del botón */
+}
+.tabla4 {
+    border: 3px solid black; /* Bordes exteriores de la tabla */
+    border-collapse: collapse; /* Colapsa los bordes de las celdas */
+    width: 100%; /* Ajusta el ancho de la tabla */
+}
+.tabla4 td {
+    border: none; /* Sin bordes internos en las celdas */
+    padding: 10px; /* Espaciado interno de las celdas */
+    text-align: center; /* Centra el texto horizontalmente */
+    vertical-align: middle; /* Centra el texto verticalmente */
+}
+/* Eliminar los bordes de la tabla y celdas */
+.tabla23, .tabla23 td {
+    border: none; /* Elimina los bordes de la tabla */
+    padding: 0; /* Elimina el padding entre las celdas */
+    margin: 0; /* Elimina márgenes entre celdas */
+}
+
+/* Centrar el contenido en las celdas de la tabla2 */
+.tabla23 td {
+    text-align: center; /* Centra el texto en las celdas */
+    vertical-align: middle; /* Centra el contenido verticalmente */
+}
+
+/* Asegúrate de que la imagen del descuento abarque bien su celda */
+.Banner {
+    width: 100%; /* La imagen ocupa el 100% del ancho disponible */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Elimina el espacio debajo de la imagen */
+}
+h1{
+    color: green;
+}
